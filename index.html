@@ -124,15 +124,51 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container">
-      © <span id="y"></span> Domingo Research. All rights reserved.
+  <footer class="site-footer" id="footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <div class="footer-mark">DR</div>
+        <div>
+          <div class="footer-company">Domingo Research</div>
+          <div class="footer-sub">Research-driven In-silico Drug Discovery</div>
+        </div>
+      </div>
+  
+      <div class="footer-meta">
+        <div class="footer-row">
+          <span class="k">대표</span>
+          <span class="v">[대표자 성명(확정 전)]</span>
+        </div>
+        <div class="footer-row">
+          <span class="k">주소</span>
+          <span class="v">[주소(확정 전)]</span>
+        </div>
+        <div class="footer-row">
+          <span class="k">이메일</span>
+          <span class="v"><a href="mailto:[이메일(확정 전)]">[이메일(확정 전)]</a></span>
+        </div>
+        <div class="footer-row">
+          <span class="k">전화</span>
+          <span class="v">[전화번호(확정 전)]</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container footer-bottom">
+      <div class="copyright">
+        © <span id="y2"></span> Domingo Research. All rights reserved.
+      </div>
+      <div class="footer-links">
+        <a href="#" onclick="alert('추후 추가 예정입니다.'); return false;">개인정보 처리방침</a>
+        <a href="#" onclick="alert('추후 추가 예정입니다.'); return false;">쿠키정책</a>
+      </div>
     </div>
   </footer>
-
+  
   <script>
-    document.getElementById('y').textContent = new Date().getFullYear();
+    document.getElementById('y2').textContent = new Date().getFullYear();
   </script>
+  
 </body>
 </html>
 
