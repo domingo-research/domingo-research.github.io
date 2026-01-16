@@ -143,7 +143,7 @@
   
   .footer-meta{
     display:grid;
-    grid-template-columns: 1.3fr 1.3fr 0.9fr; /* 오른쪽 칼럼 더 좁게 */
+    grid-template-columns: 1.3fr 1.3fr 0.9fr; 
     gap:10px 22px;
     font-size:13px;
     max-width:720px;
