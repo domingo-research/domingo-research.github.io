@@ -1,1 +1,138 @@
-hello world!
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Domingo Research</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Domingo Research logo" class="logo" />
+        <div class="brand-text">
+          <div class="brand-name">Domingo Research</div>
+          <div class="brand-tag">AI-driven In-silico Drug Discovery & Molecular Intelligence</div>
+        </div>
+      </div>
+      <nav class="menu">
+        <a href="#overview">Overview</a>
+        <a href="#problem">Problem</a>
+        <a href="#scope">Scope</a>
+        <a href="#whatwedo">What we do</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Reducing uncertainty in drug discovery<br/>with AI-driven in-silico molecular intelligence.</h1>
+        <p class="sub">
+          Domingo Research is a research-driven technology company integrating machine learning,
+          molecular science, and biomedical data for reliable preclinical assessment.
+        </p>
+      </div>
+    </section>
+
+    <section id="overview" class="section">
+      <div class="container">
+        <h2>Overview</h2>
+        <p>
+          Domingo Research는 머신러닝과 분자 과학을 기반으로 신약 개발 과정에서 발생하는 불확실성을 줄이기 위한
+          인실리코 기술을 연구·개발하는 연구 중심 기술 기업입니다. 분자의 구조적·물리화학적 특성과 생의학 데이터를
+          통합적으로 분석하여, 실험 이전 단계에서 후보 물질의 특성과 리스크를 보다 정밀하게 평가하는 것을 목표로 합니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="problem" class="section alt">
+      <div class="container">
+        <h2>The Problem</h2>
+        <p>
+          신약 개발은 높은 비용과 긴 개발 기간, 낮은 성공률이라는 구조적 한계를 갖고 있습니다.
+          특히 분자의 물성, 안전성, 약동학적 특성은 실험 이전 단계에서 충분히 검증되기 어렵고,
+          이로 인해 많은 후보 물질이 개발 과정 중 탈락합니다.
+        </p>
+        <p>
+          이러한 문제를 해결하기 위해서는 단일 지표가 아닌, 분자 수준의 정보와 생의학적 맥락을 함께 고려하는
+          통합적 인실리코 접근이 필요합니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="scope" class="section">
+      <div class="container">
+        <h2>Our Scope</h2>
+        <p>
+          Domingo Research는 머신러닝 기반 분자 표현 학습과 물리·화학적 지식을 결합하여,
+          신약 후보 물질의 특성 및 위험 요소를 사전에 평가하는 문제에 집중합니다.
+          특정 예측 과제에 국한되지 않고, 신약 개발 전반에서 활용 가능한 범용 인실리코 분석 프레임워크를 지향합니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="whatwedo" class="section alt">
+      <div class="container">
+        <h2>What We Do</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Molecular Property Prediction</h3>
+            <p>구조 기반 머신러닝을 통한 물성 예측 및 QSAR/QSPR 모델링</p>
+          </div>
+          <div class="card">
+            <h3>ADMET & PK/PD Risk Modeling</h3>
+            <p>흡수·분포·대사·배설·독성 및 약동학적 리스크의 계산적 평가</p>
+          </div>
+          <div class="card">
+            <h3>DDI Risk Assessment</h3>
+            <p>복합 약물 사용 시 발생 가능한 약물 상호작용 위험 분석</p>
+          </div>
+          <div class="card">
+            <h3>In-silico Validation</h3>
+            <p>실험 이전 단계에서 후보 물질 선별 및 우선순위화</p>
+          </div>
+          <div class="card">
+            <h3>Drug Rediscovery & Repurposing</h3>
+            <p>기존/연구된 화합물의 새로운 적응증 및 치료 기회 탐색(인실리코 분석)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Mission">
+      <div class="container">
+        <h2>Mission</h2>
+        <p class="mission">
+          분자 및 생의학 데이터를 해석 가능한 인사이트로 전환하여,<br/>
+          신약 개발 과정의 불확실성을 줄입니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:contact@domingo-research.com">contact@domingo-research.com</a><br/>
+          GitHub: <a href="https://github.com/domingo-ai" target="_blank" rel="noreferrer">github.com/domingo-ai</a>
+        </p>
+        <p class="note">* 이메일/주소/전화는 확정되면 교체하세요.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © <span id="y"></span> Domingo Research. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
