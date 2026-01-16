@@ -143,10 +143,10 @@
   
   .footer-meta{
     display:grid;
-    grid-template-columns: 1.3fr 1.3fr 0.9fr; 
-    gap:10px 22px;
+    grid-template-columns: 1fr 1fr;
+    gap:10px 26px;
     font-size:13px;
-    max-width:720px;
+    max-width:640px;
   }
   .footer-row{ display:flex; gap:10px; align-items:baseline; }
   .footer-row .k{ min-width:80px; opacity:.70; }
